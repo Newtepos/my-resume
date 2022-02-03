@@ -27,13 +27,24 @@ p.description {
   width: 40ch;
 }
 
+.section_container {
+  /* padding-top: 5.1rem;
+  padding-bottom: 13.7rem; */
+  margin: 0 auto;
+}
+
 .main_container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 30em;
-}
+    justify-content: space-between;
+    padding-top: 5.1rem;
+    padding-bottom: 13.7rem;
+    gap: 7.2rem;
+    width: 60%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
 
 .text_container {
     display: flex;
@@ -45,7 +56,3 @@ p.description {
     border-radius: 50%;
 }
 
-.section_container {
-    padding-top: 5.1rem;
-    padding-bottom: 13.7rem;
-}
