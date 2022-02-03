@@ -1,10 +1,14 @@
-import classes from './Skills.module.css'
+import classes from "./Skills.module.css";
 
 const Skills = (props) => {
-    return <section className={classes.main_container}> 
+  return (
+    <section className={classes.main_container}>
+      <div className={classes.section_header}>
         <h3>Skills</h3>
-        <div className={classes.skills_container}></div>
-     </section>
-}
+      </div>
+      <div className={classes.skills_container}></div>
+    </section>
+  );
+};
 
-export default Skills
+export default Skills;
