@@ -24,7 +24,7 @@ p.description {
   font-style: normal;
   font-weight: normal;
   position: relative;
-  width: 40ch;
+  width: 32ch;
 }
 
 .section_container {
@@ -41,7 +41,8 @@ p.description {
     padding-top: 5.1rem;
     padding-bottom: 13.7rem;
     gap: 7.2rem;
-    width: 60%;
+    width: 80%;
+    max-width: 120rem;
     margin: 0 auto;
     box-sizing: border-box;
   }
@@ -49,7 +50,8 @@ p.description {
 .text_container {
     display: flex;
     flex-direction: column;
-    gap: 3.1rem;
+    gap: 2.4rem;
+    margin: 10rem 0;
 }
 
 .image {

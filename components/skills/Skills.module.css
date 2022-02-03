@@ -25,7 +25,8 @@
   align-items: center;
   justify-content: left;
   z-index: 1;
-  width: 60%;
+  width: 80%;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -42,7 +43,8 @@
   margin: 2em 4em;
   height: 30vh;
   z-index: 1;
-  width: 60%;
+  width: 80%;
+  max-width: 120rem;
   margin: 0 auto;
   /* background: gray; */
 }
