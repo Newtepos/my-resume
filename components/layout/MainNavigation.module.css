@@ -37,15 +37,11 @@
     list-style-type: none;
 }
 
-.main_navigation li.active a {
+.main_navigation li.active {
     color: #2176FF;
 }
 
-/* .main_navigation a:active,
-.main_navigation a:hover,
-.main_navigation .active a {
-    color: #2176FF;
-} */
+
 
 
 
