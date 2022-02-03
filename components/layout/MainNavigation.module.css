@@ -1,0 +1,49 @@
+.header {
+    height: 9rem;
+    margin: 4em 4em;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.avatar_container {
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    gap: 3.5em; 
+}
+
+.image {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+    overflow: visible;
+    object-fit: none;
+}
+
+
+.main_navigation ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 1.5rem;
+    gap: 5em;
+}
+.main_navigation li {
+    list-style-type: none;
+}
+
+.main_navigation li.active a {
+    color: #2176FF;
+}
+
+/* .main_navigation a:active,
+.main_navigation a:hover,
+.main_navigation .active a {
+    color: #2176FF;
+} */
+
+
+
+
