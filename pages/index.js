@@ -1,7 +1,12 @@
-import Aboutme from "../components/aboutme/Aboutme"
+import { Fragment } from "react";
+import Aboutme from "../components/aboutme/Aboutme";
+import Skills from "../components/skills/Skills";
 
 export default function Home() {
   return (
-    <Aboutme></Aboutme>
-  )
+    <Fragment>
+      <Aboutme></Aboutme>
+      <Skills></Skills>
+    </Fragment>
+  );
 }
