@@ -1,12 +1,14 @@
 .header {
-    height: 9rem;
-    margin: 4em 4em;
+    height: 15.7rem;
     display: flex;
     align-content: center;
+    align-items: center;
     justify-content: space-between;
+    padding: 0 7rem;
 }
 
 .avatar_container {
+    height: 9rem;
     display: flex;
     align-content: center;
     justify-content: left;
@@ -24,6 +26,7 @@
 
 
 .main_navigation ul {
+    height: 9rem;
     display: flex;
     flex-direction: row;
     align-content: center;

@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 html,
 body {
   padding: 0;
@@ -19,6 +21,14 @@ a {
   margin: 0;
   padding: 0;
   color: #FDFDFD;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {

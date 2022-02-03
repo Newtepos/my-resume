@@ -1,7 +1,7 @@
-import Layout from "../components/layout/Layout"
+import Aboutme from "../components/aboutme/Aboutme"
 
 export default function Home() {
   return (
-    <Layout></Layout>
+    <Aboutme></Aboutme>
   )
 }
