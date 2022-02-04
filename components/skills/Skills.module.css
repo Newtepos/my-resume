@@ -40,11 +40,55 @@
 }
 
 .skills_container {
+  position: relative;
   margin: 2em 4em;
   height: 30vh;
   z-index: 1;
   width: 80%;
   max-width: 120rem;
   margin: 0 auto;
-  /* background: gray; */
+  overflow: hidden;
 }
+
+.skills_row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  white-space: nowrap;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.one {
+  animation: animate 20s linear infinite;
+  animation-delay: -20s;
+}
+
+.second {
+  animation: animate2 20s linear infinite;
+  animation-delay: -10s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+  
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateX(0%);
+  }
+  
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+
+
+
