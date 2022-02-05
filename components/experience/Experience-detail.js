@@ -9,9 +9,9 @@ const ExperienceDetail = (props) => {
   const studyDetail = {
     name: `King Mongkut's Institute of Technology Ladkrabang`,
     position: "Machatronics Engineer",
-    duration: "year 2013 - 2017",
+    duration: "June 2013 - 2017",
     description: [
-      "Mechatronics + Mechanics + Electronics",
+      "Mechanics + Electronics",
       "Automation Control and PLC",
       "GPA 2.91",
     ],
@@ -21,7 +21,7 @@ const ExperienceDetail = (props) => {
   const firstStudy = {
     name: `Mitsubishi Heavy Industries-Mahajak Air Conditioner Co.,LTD.`,
     position: "Service Engineer",
-    duration: "Aug 2018 - 2019",
+    duration: "August 2018 - 2019",
     description: [
       "Distribute technical knowledge to our distributor in both domestic and international",
       "Follow up claimed part for finding root cause of problem from each distributor",
@@ -34,7 +34,7 @@ const ExperienceDetail = (props) => {
   const secondStudy = {
     name: `CAD-IT CONSULTANTS (ASIA) PTE. LTD.`,
     position: "Enterprise Solution Application Engineer",
-    duration: "1 Nov 2019 -  Current ",
+    duration: "November 2019 -  Present ",
     description: [
       "Design and implement effective user interface suit with customer need",
       "Support pre & post sales",
