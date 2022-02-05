@@ -4,6 +4,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 5rem 0;
+  margin-bottom: 5rem;
 }
 
 .experience_container {
@@ -89,7 +90,7 @@
 
 .year {
   position: absolute;
-  top: 110%;
+  top: 120%;
   left: 50%;
   transform: translateX(-50%);
   font-family: Libre Franklin;
