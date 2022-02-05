@@ -1,5 +1,6 @@
 import classes from "./Experience.module.css";
 import ExperienceDetail from "./Experience-detail"
+import ExpereiceSelect from "./Experience-select";
 
 const Experience = (props) => {
   return (
@@ -7,6 +8,7 @@ const Experience = (props) => {
       <div className={classes.section_header}>
         <h3>Education & Experience</h3>
       </div>
+      <ExpereiceSelect/>
       <ExperienceDetail/>
     </section>
   );

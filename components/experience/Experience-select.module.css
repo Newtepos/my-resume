@@ -1,0 +1,70 @@
+.main_container {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.experience_container {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    height: 16.8rem;
+    width: 16.8rem;
+    user-select: none;
+}
+
+.experience_container input {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.experience_checkmark {
+    position: absolute;
+    width: 16.8rem;
+    height: 16.8rem;
+    border: none;
+    background: #0f0f0f;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 8px 4px rgba(14, 14, 14, 0.6),
+      inset -10px -10px 30px rgba(0, 0, 0, 0.25),
+      inset 10px 10px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.experience_container:hover input ~ .experience_checkmark,
+.experience_container input:checked ~ .experience_checkmark {
+    background: #0f0f0f;
+    border: 5px solid #2176ff;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+      0px 4px 4px rgba(0, 0, 0, 0.25), 0px 8px 4px rgba(14, 14, 14, 0.6),
+      inset 10px 10px 30px rgba(33, 118, 255, 0.25),
+      inset -10px -10px 30px rgba(33, 118, 255, 0.25);
+    cursor: pointer;
+    outline: none;
+}
+
+
+.small_circle_container {
+  display: flex;
+  align-items: center;
+}
+
+
+.small_circle {
+  width: 2.8rem;
+  height: 2.8rem;
+  background: #151515;
+  border-radius: 50%;
+  margin: 0 2em;
+}
+
+
+
