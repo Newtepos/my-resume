@@ -2,10 +2,9 @@
   padding: 7em 5.3em;
   background-color: gray;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
   /* align-items: center; */
-  gap: 10em;
   background: linear-gradient(
     90.11deg,
     #0f0f0f 0.1%,

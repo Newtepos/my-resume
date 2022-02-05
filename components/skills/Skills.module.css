@@ -19,6 +19,7 @@
   padding-left: -3rem;
   padding-right: -3rem;
 }
+
 .section_header {
   padding-top: 3.9rem;
   display: flex;
@@ -66,7 +67,13 @@
 
 .second {
   animation: animate2 20s linear infinite;
+  animation: animate2 20s linear infinite;
   animation-delay: -10s;
+}
+
+.skills_row:hover .one,
+.skills_row:hover .second {
+  animation-play-state: paused;
 }
 
 @keyframes animate {
