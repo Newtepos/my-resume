@@ -31,10 +31,9 @@ const MainNavigation = () => {
           <li className={asPath == "/" ? "active" : ""}>
             <Link href="/">Overview</Link>
           </li>
-          <li className={asPath == "/my-work" ? "active" : ""}>
+          {/* <li className={asPath == "/my-work" ? "active" : ""}>
             <Link href="/my-work">My Works</Link>
-            
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
