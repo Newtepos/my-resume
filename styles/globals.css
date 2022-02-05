@@ -48,6 +48,12 @@ h3 {
   font-family: Libre Franklin;
 }
 
+h4 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
 li {
   font-size: 2rem;
   font-weight: bold;

@@ -1,4 +1,5 @@
 import classes from "./Experience.module.css";
+import ExperienceDetail from "./Experience-detail"
 
 const Experience = (props) => {
   return (
@@ -6,7 +7,7 @@ const Experience = (props) => {
       <div className={classes.section_header}>
         <h3>Education & Experience</h3>
       </div>
-      <div className={classes.experience_detail}></div>
+      <ExperienceDetail/>
     </section>
   );
 };

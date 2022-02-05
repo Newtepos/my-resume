@@ -4,13 +4,13 @@ section.main_container {
     height: 500px;
     margin: 0 auto;
     max-width: 120rem;
+    padding: 12.5rem 0;
 }
 
 .section_header {
     position: relative;
     display: flex;
     align-items: center;
-    padding: 10em 0;
 }
 
 

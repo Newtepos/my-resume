@@ -1,0 +1,60 @@
+.main_container {
+  padding: 7em 5.3em;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* align-items: center; */
+  gap: 10em;
+  background: linear-gradient(
+    90.11deg,
+    #0f0f0f 0.1%,
+    rgba(15, 15, 15, 0) 154.8%
+  );
+  border-radius: 2em;
+}
+
+.header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.position {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #2176ff;
+  margin: 0.5em 0;
+}
+
+.duration {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0.5em 0;
+}
+
+.duration span {
+  font-weight: normal;
+  margin-left: 0.5em;
+}
+
+.description {
+    margin-left: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.description li {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #FDFDFD;
+  margin: 0.75em 0;
+}
