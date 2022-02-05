@@ -13,7 +13,7 @@ const Contact = (props) => {
             <span className={classes.contact_detail}>(+66) 63 020 0081</span>
             <IoIosMail className={classes.icons} />
             <span className={classes.contact_detail}>
-              supakit.pnm@gmail.com
+            <a href="mailto:supakit.pnm@gmail.com">supakit.pnm@gmail.com</a>
             </span>
           </div>
       </div>

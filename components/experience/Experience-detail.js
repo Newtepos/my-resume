@@ -48,7 +48,7 @@ const ExperienceDetail = (props) => {
     experienceList[props.experienceIndex];
 
   const descriptionArray = description.map((description) => (
-    <li>{description}</li>
+    <li key={description}>{description}</li>
   ));
 
   return (

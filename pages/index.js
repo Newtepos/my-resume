@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Fragment } from "react";
 import Aboutme from "../components/aboutme/Aboutme";
 import Contact from "../components/contact/contact";
@@ -7,6 +8,10 @@ import Skills from "../components/skills/Skills";
 export default function Home() {
   return (
     <Fragment>
+      <Head>
+        <title>Supakit CV</title>
+        <meta name="description" content="Browse Supakit's CV"/>
+      </Head>
       <Aboutme></Aboutme>
       <Skills></Skills>
       <Experience></Experience>
