@@ -8,9 +8,9 @@ const Skilltile = (props) => {
       <div className={classes.tile_container}>
         <Image
           className={classes.image}
-          src={icons}
-          width="60px"
-          height="60px"
+          src={props.img == null ? icons : props.img}
+          width="50em"
+          height="50em"
           alt="Icons"
         ></Image>
         <p className={classes.skills_name}>{props.word}</p>
