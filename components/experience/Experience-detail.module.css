@@ -57,3 +57,7 @@
   color: #FDFDFD;
   margin: 0.75em 0;
 }
+
+.main_container img {
+  object-fit: contain;
+}

@@ -1,6 +1,6 @@
 import classes from "./Aboutme.module.css";
 import Image from "next/image";
-import avatar from "../../image/small_avatar.png";
+import avatar from "../../image/persernal-image.jpeg";
 
 const Aboutme = (props) => {
   return (
