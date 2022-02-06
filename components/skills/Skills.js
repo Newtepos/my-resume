@@ -27,7 +27,7 @@ const Skills = (props) => {
             <Skilltile word="React" img={react}></Skilltile>
             <Skilltile word="Redux" img={redux}></Skilltile>
             <Skilltile word="Thingworx" img={thingworx}></Skilltile>
-            <Skilltile word="MySQL" img={html}></Skilltile>
+            <Skilltile word="MySQL" img={mysql}></Skilltile>
             <Skilltile word="MongoDB" img={mongodb}></Skilltile>
             <Skilltile word="Figma" img={figma}></Skilltile>
             <Skilltile word="Adobe XD" img={xd}></Skilltile>
@@ -39,7 +39,7 @@ const Skills = (props) => {
             <Skilltile word="React" img={react}></Skilltile>
             <Skilltile word="Redux" img={redux}></Skilltile>
             <Skilltile word="Thingworx" img={thingworx}></Skilltile>
-            <Skilltile word="MySQL" img={html}></Skilltile>
+            <Skilltile word="MySQL" img={mysql}></Skilltile>
             <Skilltile word="MongoDB" img={mongodb}></Skilltile>
             <Skilltile word="Figma" img={figma}></Skilltile>
             <Skilltile word="Adobe XD" img={xd}></Skilltile>

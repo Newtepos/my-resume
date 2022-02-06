@@ -19,12 +19,13 @@ const ExpereiceSelect = (props) => {
           type="radio"
           name="experience"
           value="0"
+          id="2013"
           onClick={clickHandler}
           checked={radio == 0}
         />
         <IoIosBook className={classes.icon}/>
         <span className={classes.experience_checkmark}></span>
-        <p className={classes.year}>2013</p>
+        <label for="2013" className={classes.year}>2013</label>
       </div>
       <div className={classes.small_circle_container}>
         <div className={classes.small_circle} />
@@ -38,12 +39,13 @@ const ExpereiceSelect = (props) => {
           type="radio"
           name="experience"
           value="1"
+          id="2018"
           onClick={clickHandler}
           checked={radio == 1}
         />
         <SiWindicss className={classes.icon}/>
         <span className={classes.experience_checkmark}></span>
-        <p className={classes.year}>2018</p>
+        <label for="2018" className={classes.year}>2018</label>
       </div>
       <div className={classes.small_circle_container}>
         <div className={classes.small_circle} />
@@ -57,11 +59,12 @@ const ExpereiceSelect = (props) => {
           type="radio"
           name="experience"
           value="2"
+          id="present"
           onClick={clickHandler}
           checked={radio == 2}
         />
         <IoIosDesktop className={classes.icon}/>
-        <p className={classes.year}>Present</p>
+        <label for="present" className={classes.year}>Present</label>
         <span className={classes.experience_checkmark}></span>
       </div>
       <div></div>
