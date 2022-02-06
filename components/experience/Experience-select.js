@@ -25,7 +25,7 @@ const ExpereiceSelect = (props) => {
         />
         <IoIosBook className={classes.icon}/>
         <span className={classes.experience_checkmark}></span>
-        <label for="2013" className={classes.year}>2013</label>
+        <label htmlFor="2013" className={classes.year}>2013</label>
       </div>
       <div className={classes.small_circle_container}>
         <div className={classes.small_circle} />
@@ -45,7 +45,7 @@ const ExpereiceSelect = (props) => {
         />
         <SiWindicss className={classes.icon}/>
         <span className={classes.experience_checkmark}></span>
-        <label for="2018" className={classes.year}>2018</label>
+        <label htmlFor="2018" className={classes.year}>2018</label>
       </div>
       <div className={classes.small_circle_container}>
         <div className={classes.small_circle} />
@@ -64,7 +64,7 @@ const ExpereiceSelect = (props) => {
           checked={radio == 2}
         />
         <IoIosDesktop className={classes.icon}/>
-        <label for="present" className={classes.year}>Present</label>
+        <label htmlFor="present" className={classes.year}>Present</label>
         <span className={classes.experience_checkmark}></span>
       </div>
       <div></div>
