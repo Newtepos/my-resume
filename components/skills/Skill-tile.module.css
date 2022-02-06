@@ -3,7 +3,7 @@
     transition: 0.2s ease-out;
 }
 
-.main_container:hover {
+.main_container:hover .tile_container {
   transform: scale(1.2) translateY(-30px);
 }
 
@@ -21,7 +21,7 @@
   align-items: center;
   margin: 0 3em;
   box-sizing: border-box;
-  transition: 0.5s ease-out;
+  transition: 0.2s ease-out;
   gap: 0.6em;
 }
 
