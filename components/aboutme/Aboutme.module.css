@@ -81,9 +81,18 @@ p.description {
   border-radius: 1.2rem;
   max-width: 18rem;
   margin-top: 1em;
+  transition: 0.2s;
 }
 
 .download svg {
   fill: #2176FF;
   margin-right: 0.4em;
+  transition: 0.2s;
+}
+
+.download:hover,
+.download:hover svg {
+  background-color: #2176FF;
+  color: #fff;
+  fill: #fff;
 }
