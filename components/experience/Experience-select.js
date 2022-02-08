@@ -1,7 +1,6 @@
 import { useState } from "react";
 import classes from "./Experience-select.module.css";
 import { IoIosBook, IoIosDesktop } from "react-icons/io";
-import { IoTerminalSharp } from "react-icons/io5";
 import { SiWindicss } from "react-icons/si";
 
 const ExpereiceSelect = (props) => {
@@ -21,7 +20,7 @@ const ExpereiceSelect = (props) => {
           value="0"
           id="2013"
           onClick={clickHandler}
-          checked={radio == 0}
+          defaultChecked={radio == 0}
         />
         <IoIosBook className={classes.icon}/>
         <span className={classes.experience_checkmark}></span>
@@ -41,7 +40,7 @@ const ExpereiceSelect = (props) => {
           value="1"
           id="2018"
           onClick={clickHandler}
-          checked={radio == 1}
+          defaultChecked={radio == 1}
         />
         <SiWindicss className={classes.icon}/>
         <span className={classes.experience_checkmark}></span>
@@ -61,7 +60,7 @@ const ExpereiceSelect = (props) => {
           value="2"
           id="present"
           onClick={clickHandler}
-          checked={radio == 2}
+          defaultChecked={radio == 2}
         />
         <IoIosDesktop className={classes.icon}/>
         <label htmlFor="present" className={classes.year}>Present</label>

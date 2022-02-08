@@ -64,3 +64,26 @@ p.description {
 .main_container span {
   border-radius: 50%;
 }
+
+.download {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1.2rem 2.0rem;
+  color: #2176FF;
+  border: 3px solid #2176FF;
+  border-radius: 1.2rem;
+  max-width: 18rem;
+  margin-top: 1em;
+}
+
+.download svg {
+  fill: #2176FF;
+  margin-right: 0.4em;
+}
