@@ -8,7 +8,7 @@ const Aboutme = (props) => {
     <div className={classes.section_container}>
       <section className={classes.main_container}>
         <div className={classes.text_container}>
-          <p>hello</p>
+          <p>hello Junior</p>
           <p className={classes.header}>Hi! I Am </p>
           <p className={classes.name}>Supakit Pavaputanon Na Mahasarakam</p>
           <p className={classes.description}>
