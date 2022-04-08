@@ -7,7 +7,7 @@ const pipeline = promisify(stream.pipeline);
 const url = 'https://w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf';
 
 const handler = async (req, res) => {
-  const response = await fetch('https://www.docdroid.net/GS3lFPT/resume-2022-pdf'); // replace this with your API call & options
+  const response = await fetch('https://www.docdroid.net/iHCJlFX/supakit-resume-2022-v11-pdf');
   if (!response.ok) throw new Error(`unexpected response ${response.statusText}`);
 
   res.setHeader('Content-Type', 'application/pdf');
