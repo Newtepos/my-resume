@@ -23,13 +23,15 @@ const Aboutme = (props) => {
             Download
           </a>
         </div>
-        <Image
-          className={classes.image}
-          src={avatar}
-          width="439rem"
-          height="439rem"
-          alt="avatar"
-        ></Image>
+        <div className={classes.image_container}>
+          <Image
+            className={classes.image}
+            src={avatar}
+            width="439rem"
+            height="439rem"
+            alt="avatar"
+          ></Image>
+        </div>
       </section>
     </div>
   );

@@ -41,6 +41,20 @@
     color: #2176FF;
 }
 
+@media screen and (max-width: 480px) {
+    .avatar_container div:first-child {
+        display: none;
+    }
+    .header {
+        height: 20rem;
+    }
+
+    .header * {
+        font-size: 2.5rem;
+    }
+  }
+  
+
 
 
 
