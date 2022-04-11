@@ -68,6 +68,6 @@ li.active a {
 @media screen and (max-width: 480px) {
   html,
   body {
-    font-size: 32.5%;
+    font-size: 30%;
   }
 }

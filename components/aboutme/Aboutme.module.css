@@ -97,6 +97,10 @@ p.description {
   fill: #fff;
 }
 
+.aboutme {
+  display: none;
+}
+
 @media screen and (max-width: 480px) {
   .main_container {
     flex-direction: column-reverse;
@@ -115,7 +119,7 @@ p.description {
   }
 
   .section_container {
-    height: 90vh;
+    height: 100vh;
   }
   .text_container{
     row-gap: 8em;
@@ -123,5 +127,15 @@ p.description {
 
   .download {
     margin-top: 3em;
+  }
+
+  .aboutme {
+    display: inline-block
+  }
+
+  .aboutme h1 {
+    font-size: 20em;
+    text-decoration: underline;
+    padding-top: 2em;
   }
 }

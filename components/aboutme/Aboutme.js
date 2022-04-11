@@ -32,6 +32,9 @@ const Aboutme = (props) => {
             alt="avatar"
           ></Image>
         </div>
+        <div className={classes.aboutme}>
+          <h1>About Me.</h1>
+        </div>
       </section>
     </div>
   );
