@@ -17,9 +17,9 @@ export default function Home() {
         <meta name="description" content="Browse Supakit's CV" />
       </Head>
       <Aboutme />
-      {/* <Skills />
+      <Skills />
       <Experience />
-      <Contact /> */}
+      <Contact />
     </Fragment>
   );
 }
