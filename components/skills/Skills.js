@@ -14,7 +14,7 @@ import xd from "../../icons/xd-icon.png"
 
 const Skills = (props) => {
   return (
-    <section className={classes.main_container}>
+    <section name="skills" className={classes.main_container}>
       <div className={classes.section_header}>
         <h3>Skills</h3>
       </div>

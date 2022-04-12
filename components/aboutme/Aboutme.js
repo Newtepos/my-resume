@@ -5,7 +5,7 @@ import { IoMdDownload } from "react-icons/io";
 
 const Aboutme = (props) => {
   return (
-    <div className={classes.section_container}>
+    <div name="aboutme" className={classes.section_container}>
       <section className={classes.main_container}>
         <div className={classes.text_container}>
           <p className={classes.header}>Hi! I Am </p>

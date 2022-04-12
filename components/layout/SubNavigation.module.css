@@ -14,6 +14,14 @@
     list-style-type: none;
     margin: 1em 0;
     text-align: left;
+    color: gray;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.active {
+    color: #2176FF;
+    text-decoration: underline;
 }
 
 
