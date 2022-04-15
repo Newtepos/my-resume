@@ -62,3 +62,9 @@
 .main_container img {
   object-fit: contain;
 }
+
+@media screen and (max-width: 480px)  {
+  .main_container {
+    height: auto;
+  }
+}

@@ -26,3 +26,26 @@ section.main_container {
     height: 300px;
     background: red;
 }
+
+@media screen and (max-width: 480px) {
+    .main_container {
+        height: 100vh;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0 0 !important;
+        padding: 0 0 !important;
+    }
+
+    .section_header {
+        display: none;
+    }
+
+    .experience h1 {
+        font-size: 20em;
+        text-decoration: underline;
+        padding-top: 1em;
+      }  
+}

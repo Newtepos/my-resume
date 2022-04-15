@@ -1,6 +1,6 @@
 .main_container {
     top: 0;
-    height: 100%;
+    height: auto;
     position: fixed !important;
     z-index: 9999;
     display: none;

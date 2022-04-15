@@ -99,3 +99,9 @@
   font-size: 2.7rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .small_circle:nth-child(even) {
+    display: none;
+  }
+}
